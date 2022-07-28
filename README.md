@@ -1,3 +1,7 @@
+# Event extraction based on frequency
+
+## Procedure
+
 Extracting events based on frequency of words found in news corpus. The event extraction system operates on simple logic that verbs and non proper nouns that are less frequently found in general purpose corpus are distinct word that indicates probabale events.
 
 The steps are as follows
@@ -7,6 +11,7 @@ The steps are as follows
 
 This advantage of this approach is we do not need to use expensive hardware with gpus or complex computation heavy deep learning algorithms. The frequency dictionary is calculated just once and takes less than 10 minutes. Also, the inference process is extremely fast as this is normalized frequency is stored in dictionary. So both traditional sense training and inference is extremly fast.
 
+## Pros and Cons:
 Pros of this approach:
 1. Fast training
 2. Low resource requirements.
