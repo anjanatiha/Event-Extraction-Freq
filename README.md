@@ -1,4 +1,4 @@
-# Event extraction based on frequency
+# Event Extraction based on Natural Frequency
 
 ## Procedure
 
